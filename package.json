@@ -1,0 +1,16 @@
+{
+	"name": "pavlocoin",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"solhint": "solhint 'contracts/**/*.sol'"
+	},
+	"author": "",
+	"license": "ISC",
+	"dependencies": {
+		"solc": "0.8.11",
+		"solhint": "3.3.6"
+	}
+}
