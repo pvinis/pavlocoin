@@ -19,6 +19,10 @@ contract PavloCoin is ERC20, ERC20Burnable, Pausable, AccessControl, ERC20Permit
         _mint(msg.sender, 1000 * 10 ** decimals());
         _grantRole(MINTER_ROLE, msg.sender);
     }
+    
+    function decimals() public view virtual override returns (uint8) {
+        return 0;
+    }
 
     function pause() public onlyRole(PAUSER_ROLE) {
         _pause();
