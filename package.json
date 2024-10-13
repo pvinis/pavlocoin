@@ -10,7 +10,7 @@
 	"author": "",
 	"license": "ISC",
 	"dependencies": {
-		"solc": "0.8.11",
+		"solc": "0.8.28",
 		"solhint": "3.3.6"
 	}
 }
